@@ -16,7 +16,7 @@ services:
   django_app:
     build:
       context: .
-    image: "${DOCKER_IMAGE_NAME:-chetanyen/notes-app:latest}"
+    image: "${chetanyen/notes-app:latest}"
     container_name: "django_cont"
     ports:
       - "8000:8000"
